@@ -7,15 +7,18 @@
     <title>Fajriyah Indriani</title>
     <style>
         body {
-            font-family: Colonna MT, sans-serif;
-            background-color:rgb(34, 147, 217);
-            text-align: center;
-            padding: 20px;
-        }
+    font-family: Colonna MT, sans-serif;
+    background: url(baground\ 2.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
         .container {
             max-width: 400px;
             margin: auto;
-            background: white;
+            background-image: url(background.jpg);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgb(238, 246, 246);
@@ -53,14 +56,26 @@
 <div class="container">
     <img src="riri.04.jpg" alt="Profile Picture" class="profile-img">
     <h2>Fajriyah Indriani</h2>
-    <p>link outfit</p>
+    <p>link social media</p>
     
     <div class="social-icons">
-        <a href="#"><img src="th.jpeg" width="30"></a>
-        
+        <a href="https://www.instagram.com/1210.ngel" target="_blank">
+            <img src="instagram.jpeg" width="30" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/@1210.er" target="_blank">
+            <img src="tiktok.jpeg" width="30" alt="TikTok">
+        </a>
+        <a href="https://open.spotify.com/user/zi4u5z4l4pco4hnosoe6vqm6q" target="_blank">
+            <img src="spotify.jpeg" width="30" alt="Spotify">
+        </a>
     </div>
-    <a href = "http://localhost/jadwal_pelajaran/jadwal_pelajaran"
-    <a href="#" class="button">linktr.shopee</a>
+
+    <a href="http://localhost/jadwal_pelajaran/jadwal_pelajaran" class="button">Jadwal Pelajaran</a>
+    <a href="https://www.instagram.com/1210.ngel" class="button" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@1210.er" class="button" target="_blank">TikTok</a>
+    <a href="https://open.spotify.com/user/zi4u5z4l4pco4hnosoe6vqm6q" class="button" target="_blank">Spotify</a>
+</div>
+    
 </section>
 
 </div>
@@ -80,7 +95,7 @@
         
         body {
             font-family: 'Baloo 2', cursive;
-            background-color: #87CEEB;
+            background-image: url(sticth.jpg);
             text-align: center;
             padding: 20px;
         }
@@ -193,3 +208,6 @@
 
 </body>
 </html>
+
+
+
